@@ -40,7 +40,6 @@ mod tests {
 
     #[test]
     fn test_name() {
-        assert_eq!(
-            Series::new(String::from("401")).name(), Ok("ICE 1"));
+        assert_eq!(Series::new(String::from("401")).name(), Ok("ICE 1"));
     }
 }
