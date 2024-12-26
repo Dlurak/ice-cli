@@ -1,0 +1,12 @@
+[package]
+name = "ice-cli"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ansi_term = "0.12.1"
+chrono = "0.4.39"
+chrono-tz = "0.10.0"
+clap = { version = "4.5.23", features = ["derive"] }
+iceportal = "3.0.0"
+tokio = { version = "1.42.0", features = ["full"] }
